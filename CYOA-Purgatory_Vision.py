@@ -263,12 +263,15 @@ def chapter_4():
     if ch == "full":
         narrate("You speak for almost an hour. Some nuns weep. The visiting monk")
         narrate("fills three pages of notes. The abbess's expression is unreadable.")
+        narrate("'The souls in Purgatory need our prayers. We have been forgetting them.'")
+        narrate("You viciously urge people to repent, demanding that corrupt priests and monks abandon their worldliness and faithfully shepherd their flocks")
         speak("The Visiting Monk", "This will need to go to the bishop. And perhaps to parchment.")
         S["courage"] += 2; S["support"] += 1; S["written"] = True
 
     elif ch == "brief":
         narrate("Your message is clear and simple, stripped of the unsettling detail.")
         narrate("'The souls in Purgatory need our prayers. We have been forgetting them.'")
+        narrate("You viciously urge people to repent, demanding that corrupt priests and monks abandon their worldliness and faithfully shepherd their flocks")
         narrate("The community receives this well. It is practical. It is actionable.")
         speak("The Abbess", "We will add a daily prayer for the faithful departed. Thank you.")
         S["support"] += 1; S["promised"] = True
