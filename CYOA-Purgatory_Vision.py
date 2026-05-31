@@ -243,7 +243,7 @@ def chapter_4():
     scene_header("Chapter IV: The Chapter House",
                  "Monastery of Schönau. One Week Later")
 
-    narrate("The abbess has called an extraordinary chapter. Word has spread, as it")
+    narrate("The abbess has called. Word has spread, as it")
     narrate("always does in a small community. Some nuns are frightened. Some are")
     narrate("intrigued. A visiting monk from a neighbouring abbey sits in the corner,")
     narrate("stylus in hand, listening.")
