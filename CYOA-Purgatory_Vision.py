@@ -161,7 +161,9 @@ def chapter_2():
     print()
     speak("The Soul", "Sister. You are warm. You are still alive. Tell them.")
     speak("The Soul", "Tell the living: say Masses, pray for the dead. We are not lost.")
+    speak("The Soul", "Tell the priests and Abbots to stop misguiding their flocks")
     speak("The Soul", "We are only waiting. Do not let them forget us.")
+    
     print()
 
     ch = choose("How do you respond to the soul's plea?", [
