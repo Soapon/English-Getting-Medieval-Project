@@ -534,7 +534,6 @@ def main():
     chapter_1()
     print()
     print(dim("  Thank you for playing."))
-    print(dim("  Sources: Anne L. Clark, Elisabeth of Schönau (1992)."))
     print()
 
 if __name__ == "__main__":
